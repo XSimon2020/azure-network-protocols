@@ -56,7 +56,7 @@ On portal.azure.com, go to the section as shown in the screenshot to create a ne
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5b9edd1e-292b-4a06-a5aa-84fa60f4c4c4">
 <img width="443" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a1cc75ab-cba0-4e9d-b603-b81e8e1f22d4">
 </p>
-Copy the public IP address for the windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
+Copy the public IP address for the Windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
 <p>
 <br/>
 
@@ -66,13 +66,12 @@ Copy the public IP address for the windows vm then paste it onto Microsoft Remot
 <img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/9a0af9d6-ac55-4411-8777-2990b04b7db9">
 <img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6b5a3bea-c43a-4dff-b168-b51079fd19ec">
 </p>
-Go to the search bar in Microsoft Edge within the vm to type out "wirehshark download" for downloading and installing Wirehsark. Be sure to click "Windows x64 Installer" to get the right variant of Wireshark. Open the file and go through the setup to install Wireshark.
+Go to the search bar in Microsoft Edge within the vm to type out "wirehshark download" for downloading and installing Wirehsark. Be sure to click "Windows x64 Installer" to get the correct variant of Wireshark. Open the file and go through the setup to install Wireshark.
 <p>
 <br/>
 
 <p>
-5) Explore ICMP traffic.
-<img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/fd2661a8-402a-429d-9451-70c27952021c">
+5) Observe ICMP traffic.
 <img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6be066d7-a497-4c08-af8a-793d6271f25b">
 <img width="1109" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/7fe17802-101b-4d24-861e-02b75dd86ff2">
 <img width="1109" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/7ca5d70c-6387-401d-a443-64392ad50715">
@@ -82,44 +81,53 @@ Search for Wireshark and Windows Powershell using the search bar at the bottom l
 <br/>
 
 <p>
-6) Log into Windows 10 Pro VM.
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6bee73d9-c96a-4ebd-b37b-3b4188e02f05">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5b9edd1e-292b-4a06-a5aa-84fa60f4c4c4">
-<img width="443" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a1cc75ab-cba0-4e9d-b603-b81e8e1f22d4">
+6) Block ICMP traffic from the Windows vm.
+<img width="1109" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a5e4e294-c164-4d96-8146-e579b0a3620e">
+<img width="1109" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/caa79ca6-65a9-4a54-b304-82e6a76d0583">
+<img width="1109" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a165660d-f094-4d0e-977f-0349616c5f14">
+<img width="1109" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/3a8051cd-0498-4fc3-8aa0-6e88b30d82b9">
+<img width="1200" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/34195792-41d7-4c3c-839f-2e1f208ecded">
+<img width="664" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a0ae9e09-6ecb-4cee-abb3-1de6755b672b">
 </p>
-Copy the public IP address for the windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
+Go back to Microsoft Azure and get to the network settings of the Linux vm that is receiving perpetual ICMP traffic from the Windows vm. Type out "network security groups" then click for the Linux vm nsg. Click "Inbound security rules" underneath "Settings" on the left side of the screen then click "Add". Configure the settings to how it is shown in the screenshot then click "Add" to add the new rule. This should cause the perpetual ping coming from the Windows vm to time out, so go back to that vm to confirm it. You can delete the rule for ping traffic to start flowing again and press "command+C" within Windows Powershell to stop the traffic.  
 <p>
 <br/>
 
 <p>
-7) Log into Windows 10 Pro VM.
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6bee73d9-c96a-4ebd-b37b-3b4188e02f05">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5b9edd1e-292b-4a06-a5aa-84fa60f4c4c4">
-<img width="443" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a1cc75ab-cba0-4e9d-b603-b81e8e1f22d4">
+7) Observe SSH traffic.
+<img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/c7127027-256d-4412-83ef-1c494817da9a">
+<img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/fb3eef6c-96cb-4aed-be6a-4cd348ebdda6">
+<img width="1201" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/e0f87b45-e8fa-4e3a-95d5-577cae82585b">
 </p>
-Copy the public IP address for the windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
+On Windows Powershell within the Windows vm, type "ssh" then the private IP address of the Linux vm. Type "yes" to continue connecting to the command line of the Linux vm. Type out the password given for the Linux vm when setting it up once prompted to. Note that typing out the password would look invisible, so be sure that it is typed correctly. Type "exit" on Windows Powershell to exit it out of the Linux mv's command line.
 <p>
 <br/>
 
 <p>
-8) Log into Windows 10 Pro VM.
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6bee73d9-c96a-4ebd-b37b-3b4188e02f05">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5b9edd1e-292b-4a06-a5aa-84fa60f4c4c4">
-<img width="443" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a1cc75ab-cba0-4e9d-b603-b81e8e1f22d4">
+8)Observe DHCP traffic.
+<img width="1204" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/d844582c-5a50-4b42-9cbf-7dfaa23c187e">
 </p>
-Copy the public IP address for the windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
+Type "dhcp", "udp.port==67",or "udp.port==68" then press 
+"Enter" on Wireshark to filter out all traffic except DHCP traffic. On Windows Powershell, type "ipconfig /renew" to change the public IP address of the Windows vm and observe how Wireshark captures this.
 <p>
 <br/>
 
 <p>
-9) Log into Windows 10 Pro VM.
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6bee73d9-c96a-4ebd-b37b-3b4188e02f05">
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5b9edd1e-292b-4a06-a5aa-84fa60f4c4c4">
-<img width="443" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/a1cc75ab-cba0-4e9d-b603-b81e8e1f22d4">
+9) Observe DNS traffic.
+ <img width="1204" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/50152503-858e-4e88-840e-a6a80c413471">
 </p>
-Copy the public IP address for the windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
+Type "dns" or "udp.port==53" then press "Enter" on Wireshark to filter out all traffic except DNS traffic. Asides from the DNS traffic already captured, type "nslookup google.com" and notice the traffic that Wireshark picked up on when finding out the various IP addresses that Google uses.
 <p>
 <br/>
+
+<p>
+10) Observe RDP traffic.
+</p>
+Using only Wireshark, type "rdp" then press "Enter" to filter out all traffic but RDP traffic. Afterwards, type "tcp.port==3389" then press "Enter" and notice the perpetual capture of traffic that is occurring. This is due to the continous communication established between the Windows vm and your physical os device.
+<p>
+<br/>
+
+
 
 
 
