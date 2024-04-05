@@ -24,22 +24,32 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 
 <h2>List of Prerequisites</h2>
 
-- Completion of [osTicket: Prerequisites and Installation](https://github.com/XSimon2020/osticket-prereqs)
+- Microsoft Azure
 
-- Completion of [osTicket: Post-Installation Configuration](https://github.com/XSimon2020/post-install-config)
+- Microsoft Remote Desktop
 
 <h2>Steps</h2>
 
 <p>
-1) Create tickets.
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/7f42add8-2e43-4495-8834-6b3dc9517562">
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/a14c04d9-b1a2-4588-84ca-7fe8f1b34c79">
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/49b7eb91-a283-4c86-88b0-bba5851d2a72">
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/b535f324-466c-4df1-8f06-9b8ab5c13aa7">
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/1465189a-0740-4611-98c4-5a3a8a646af1">
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/e06be716-c00e-4377-a713-b85f47965776">
-<img width="1168" alt="image" src="https://github.com/XSimon2020/ticket-lifecycle/assets/111246513/dc996099-bc01-4889-b81a-81892f263273">
+1) Create Windows 10 Pro VM.
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5649a472-8c50-4686-b28a-787be6cee83b">
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/4b2d40be-2a5f-415e-bc10-41e42cdd5edd">
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/072c93cd-5dce-4c00-b44d-1ecb41c68eab">
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/22fd4339-1597-481d-8ba1-fe15bcb9dd87">
 </p>
-Copy the link URL: http://localhost/osTicket/ and paste it onto Microsoft Edge within the vm to create tickets as end users. Type out the information and create the tickets as shown in the screenshots. 
+On portal.azure.com, go to the section as shown in the screenshot to create a new vm. When typing out the information for creating the vm, do it as it is shown in the screenshots besides the username and password that will be unique to you. Be sure to click the checkbox for licensing. Click "Review + create" and then click "Create" after validation has passed.
 <p>
 <br/>
+
+<p>
+2) Create Ubuntu Server 20.04 LTS VM.
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5649a472-8c50-4686-b28a-787be6cee83b">
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/4b2d40be-2a5f-415e-bc10-41e42cdd5edd">
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/072c93cd-5dce-4c00-b44d-1ecb41c68eab">
+<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/22fd4339-1597-481d-8ba1-fe15bcb9dd87">
+</p>
+On portal.azure.com, go to the section as shown in the screenshot to create a new vm. When typing out the information for creating the vm, do it as it is shown in the screenshots besides the username and password that will be unique to you. Be sure to click the checkbox for licensing. Click "Review + create" and then click "Create" after validation has passed.
+<p>
+<br/>
+
+
