@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AMicrosoft_Azure_Logo.svg&psig=AOvVaw1FHIsLL7Q34hMyyRH4AjiJ&ust=1712426005349000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCav6bSq4UDFQAAAAAdAAAAABAJ![image](https://github.com/XSimon2020/azure-network-protocols/assets/111246513/81838b12-7214-450d-971b-edf61cb482b4)
 </p>
 
 <h1>osTicket - Ticket Lifecycle Examples</h1>
