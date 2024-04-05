@@ -123,9 +123,11 @@ Type "dns" or "udp.port==53" then press "Enter" on Wireshark to filter out all t
 <p>
 10) Observe RDP traffic.
 </p>
-Using only Wireshark, type "rdp" then press "Enter" to filter out all traffic but RDP traffic. Afterwards, type "tcp.port==3389" then press "Enter" and notice the perpetual capture of traffic that is occurring. This is due to the continous communication established between the Windows vm and your physical os device.
+Using only Wireshark, type "rdp" then press "Enter" to filter out all traffic but RDP traffic. Afterwards, type "tcp.port==3389" then press "Enter" and notice the perpetual capture of traffic that is occurring. This is due to the continous communication established between the Windows vm and your physical os device behind the scenes.
 <p>
 <br/>
+
+<b>This marks the end of the tutorial.<b>
 
 
 
