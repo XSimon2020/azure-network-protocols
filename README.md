@@ -5,7 +5,7 @@
 <img width="559" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/52119721-42b1-4188-bfdc-9d4f2d7fe3a3">
 </p>
 
-<h1>Inspecting Traffic By Protocols Between Virtual Machines Within Azure</h1>
+<h1>Inspecting Traffic By Protocols Between Azure Virtual Machines</h1>
 This demonstration outlines a simulation for ticket lifecycles in osTicket.<br />
 
 
