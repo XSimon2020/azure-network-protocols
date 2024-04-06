@@ -15,7 +15,7 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 
 - Remote Desktop
 
-- Command-Line Tools
+- PowerShell
 
 - Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
 
