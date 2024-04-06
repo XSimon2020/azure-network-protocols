@@ -22,12 +22,6 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 
 - Ubuntu Server 20.04 LTS VM</b>
 
-<h2>List of Prerequisites</h2>
-
-- Microsoft Azure
-
-- Microsoft Remote Desktop
-
 <h2>Steps</h2>
 
 <p>
