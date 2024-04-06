@@ -12,7 +12,15 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure Virtual Machine (VM)
+
 - Remote Desktop
+
+- Command-Line Tools
+
+- Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
+
+- Wireshark (Protocol Analyzer)
+  
 
 <h2>Operating Systems Used </h2>
 
