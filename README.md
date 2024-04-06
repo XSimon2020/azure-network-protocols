@@ -35,7 +35,7 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 <p>
 1) <b>Create Windows 10 Pro VM.</b><br/>
 On portal.azure.com, go to the section as shown in the screenshot to create a new vm. When typing out the information for creating the vm, do it as it is shown in the screenshots besides the username and password that will be unique to you. Be sure to click the checkbox for licensing. Click "Review + create" and then click "Create" after validation has passed.
-<img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5649a472-8c50-4686-b28a-787be6cee83b">
+<img width="1800" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/9f783442-f953-4b9a-a1e5-7449f61a2e82">
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/4b2d40be-2a5f-415e-bc10-41e42cdd5edd">
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/072c93cd-5dce-4c00-b44d-1ecb41c68eab">
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/22fd4339-1597-481d-8ba1-fe15bcb9dd87">
