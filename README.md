@@ -119,7 +119,7 @@ Using only Wireshark, type "rdp" then press "Enter" to filter out all traffic bu
 </p>
 <br/>
 
-<b>This marks the end of the tutorial.<b>
+<b>This marks the end of the demonstration.<b>
 
 
 
