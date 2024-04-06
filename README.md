@@ -11,7 +11,7 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure Virtual Machine (VM)
+- Microsoft Azure Virtual Machines
 
 - Remote Desktop
 
@@ -27,9 +27,9 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 
 - macOS
 
-- Windows 10 Pro VM</b> (21H2)
+- Windows 10 Pro </b> (21H2)
 
-- Ubuntu Server 20.04 LTS VM</b>
+- Ubuntu Server 20.04 LTS </b>
 
 <h2>Steps</h2>
 
