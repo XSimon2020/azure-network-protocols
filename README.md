@@ -20,6 +20,7 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 - Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
 
 - Wireshark (Protocol Analyzer)
+- Network Security Groups
   
 
 <h2>Operating Systems Used </h2>
