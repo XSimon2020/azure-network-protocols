@@ -34,7 +34,7 @@ This demonstration outlines a simulation for ticket lifecycles in osTicket.<br /
 <h2>Steps</h2>
 
 <p>
-1) <b>Create Windows 10 Pro VM.</b><br/>
+1) <b>Create Windows 10 Pro virtual machine.</b><br/>
 On portal.azure.com, go to the section as shown in the screenshot to create a new vm. When typing out the information for creating the vm, do it as it is shown in the screenshots besides the username and password that will be unique to you. Be sure to check the checkbox for licensing and hosting rights. Click "Review + create" and then click "Create" after validation has passed.
 <img width="1800" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/9f783442-f953-4b9a-a1e5-7449f61a2e82">
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/4b2d40be-2a5f-415e-bc10-41e42cdd5edd">
@@ -44,7 +44,7 @@ On portal.azure.com, go to the section as shown in the screenshot to create a ne
 <br/>
 
 <p>
-2) <b>Create Ubuntu Server 20.04 LTS VM.</b><br/>
+2) <b>Create Ubuntu Server 20.04 LTS virtual machine.</b><br/>
 Start creating the next vm and type out the information as it is shown in the screenshot. Preferably use the same username and password typed out when creating the previous vm. Click "Next:Disks >"->"Next:Networking" and make sure this vm is configured for the same virtual network as the previous vm. Click "Review + create" and then click "Create" after validation has passed.
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/4ac04608-632a-4279-aba9-359336a5a6ce">
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/97f6053e-1952-48f3-98f0-3ca8e9fcbcc8">
@@ -52,7 +52,7 @@ Start creating the next vm and type out the information as it is shown in the sc
 <br/>
 
 <p>
-3) <b>Log into Windows 10 Pro VM.</b><br/>
+3) <b>Log into Windows 10 Pro virtual machine.</b><br/>
 Copy the public IP address for the Windows vm then paste it onto Microsoft Remote Desktop after clicking to add a new PC. Put the username and password you typed out when setting up the vm to log in.
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/6bee73d9-c96a-4ebd-b37b-3b4188e02f05">
 <img width="998" alt="image" src="https://github.com/XSimon2020/azure-network-protocols/assets/111246513/5b9edd1e-292b-4a06-a5aa-84fa60f4c4c4">
